@@ -47,6 +47,8 @@ $app->get('/add/:type/:value', function ($type, $value) use ($app) {
     $stmt->bindValue(':type', $type, \PDO::PARAM_INT);
     $stmt->bindValue(':value', $value, \PDO::PARAM_INT);
     $res = $stmt->execute();
+    $arr = $stmt->errorInfo();
+    var_dump($arr);
     $app->response->write('OK');
 });
 

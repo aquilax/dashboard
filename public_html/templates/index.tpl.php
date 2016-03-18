@@ -8,6 +8,8 @@
     <style type="text/css">
         body {
             font-family: "Lucida Console", Monaco, monospace;
+            background: #2e3033;
+            color: #b5b7ba;
         }
         table {
             width: 100%;
@@ -18,10 +20,10 @@
         }
         td h1 {
             font-size: 2vw;
-            margin: 0 0 35vh 0;
+            margin: 10vh 0 30vh 0;
         }
         td div {
-            font-size: 6vw;
+            font-size: 7vw;
         }
     </style>
 </head>
@@ -29,12 +31,12 @@
     <table>
         <tr>
             <td>
-                <h1>Active products DE</h1>
-                <div><?= $products; ?></div>
+                <h1>Active products [DE]</h1>
+                <div><?= number_format($products); ?></div>
             </td>
             <td>
-                <h1>Active SKUs DE</h1>
-                <div><?= $articles; ?></div>
+                <h1>Active SKUs [DE]</h1>
+                <div><?= number_format($articles); ?></div>
             </td>
         </tr>
     </table>
