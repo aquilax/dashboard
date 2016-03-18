@@ -1,0 +1,7 @@
+/vendor/
+*.sublime-*
+coverage/
+db/*
+public_html/feeds/*
+tmp/*
+log/*

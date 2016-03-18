@@ -1,0 +1,13 @@
+{
+    "name": "fyndiq/dashboard",
+    "description": "Simple dashboard",
+    "authors": [
+        {
+            "name": "aquilax",
+            "email": "aquilax@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "2.6.2"
+    }
+}
