@@ -6,10 +6,14 @@
     <title>Dashboard</title>
     <meta http-equiv="refresh" content="10">
     <style type="text/css">
+        html, body {
+            height:99%;
+        }
         body {
             font-family: "Lucida Console", Monaco, monospace;
-            background: #2e3033;
+            background: #2e3033 url('logo.svg') no-repeat center 95%;
             color: #b5b7ba;
+            background-size:  15%;
         }
         table {
             width: 100%;
